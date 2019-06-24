@@ -1,7 +1,7 @@
 body{
 	margin: 3% 5%;
 	text-align:center;
-	background-color: lavendar;
+	background-color: lavender;
 }
 
 .signs {
@@ -10,4 +10,3 @@ body{
 	flex-wrap: wrap;
 	padding: 10px;
 }
-
