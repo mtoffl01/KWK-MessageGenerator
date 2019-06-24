@@ -36,3 +36,18 @@ var sagittariusMessages = ["A Sagittarius hardly holds grudges. They are quick t
 var capricornMessages = ["Capricorns hold a serious demeanor. They do not believe in lose talk and casual meetings.",
 "Although they lead with their serious side, once befriended they displaytheir funny, lighter side.",
 "Famous Capricorns include David Bowie, Bradley Cooper and Mac Miller."];
+
+var acqBtn = document.getElementById("acquariusMessage");
+var pisBtn = document.getElementById("piscesMessage");
+var ariBtn = document.getElementById("ariesMessage");
+var tauBtn = document.getElementById("taurusMessage");
+var gemBtn = document.getElementById("geminiMessage");
+var canBtn = document.getElementById("cancerMessage");
+var leoBtn = document.getElementById("leoMessage");
+var virgBtn = document.getElementById("virgoMessage");
+var libBtn = document.getElementById("libraMessage");
+var scorBtn = document.getElementById("scorpioMessage");
+var sagBtn = document.getElementById("sagittariusMessage");
+var capBtn = document.getElementById("capricornMessage");
+
+
