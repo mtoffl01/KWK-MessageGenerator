@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title> Photo Gallery Challenge </title>
+		<title> Random Message Generator </title>
 		<link rel="stylesheet" href="style.css">
 		<script src="script.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,41 +11,44 @@
 		<p>Click your astrological sign to learn more about yourself!</p><br>
 		<div class = "signs">
 			<div id="Acquarius">
-				<button id=acquariusMessage">Acquarius</button>
+				<button id="acquariusMessage" onClick="generateAcqMessage()">Acquarius</button>
 			</div>
 			<div id="Pisces">
-				<button id=piscesMessage">Pisces</button>
+				<button id="piscesMessage" onClick="generatePisMessage()">Pisces</button>
 			</div>
 			<div id="Aries">
-				<button id=ariesMessage">Aries</button>
+				<button id="ariesMessage" onClick="generateAriMessage()">Aries</button>
 			</div>
 			<div id="Taurus">
-				<button id=taurusMessage">Taurus</button>
+				<button id="taurusMessage" onClick="generateTauMessage()">Taurus</button>
 			</div>
 			<div id="Gemini">
-				<button id=geminiMessage">Gemini</button>
+				<button id="geminiMessage" onClick="generateGemMessage()">Gemini</button>
 			</div>
 			<div id="Cancer">
-				<button id=cancerMessage">Cancer</button>
+				<button id="cancerMessage" onClick="generateCanMessage()">Cancer</button>
 			</div>
 			<div id="Leo">
-				<button id=leoMessage">Leo</button>
+				<button id="leoMessage" onClick="generateLeoMessage()">Leo</button>
 			</div>
 			<div id="Virgo">
-				<button id=virgoMessage">Virgo</button>
+				<button id="virgoMessage" onClick="generateVirgMessage()">Virgo</button>
 			</div>
 			<div id="Libra">
-				<button id=libraMessage">Libra</button>
+				<button id="libraMessage" onClick="generateLibMessage()">Libra</button>
 			</div>
 			<div id="Scorpio">
-				<button id=scorpioMessage">Scorpio</button>
+				<button id="scorpioMessage" onClick="generateScoMessage()">Scorpio</button>
 			</div>
 			<div id="Sagittarius">
-				<button id=sagittariusMessage">Sagittarius</button>
+				<button id="sagittariusMessage" onClick="generateSagMessage()">Sagittarius</button>
 			</div>
 			<div id="Capricorn">
-				<button id=capricornMessage">Capricorn</button>
+				<button id="capricornMessage" onClick="generateCapMessage()">Capricorn</button>
 			</div>
+		</div>
+		<br>
+		<div id="message">
 		</div>
 	</body>
 	</html>

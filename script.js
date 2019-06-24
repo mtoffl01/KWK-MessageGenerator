@@ -37,17 +37,90 @@ var capricornMessages = ["Capricorns hold a serious demeanor. They do not believ
 "Although they lead with their serious side, once befriended they displaytheir funny, lighter side.",
 "Famous Capricorns include David Bowie, Bradley Cooper and Mac Miller."];
 
-var acqBtn = document.getElementById("acquariusMessage");
-var pisBtn = document.getElementById("piscesMessage");
-var ariBtn = document.getElementById("ariesMessage");
-var tauBtn = document.getElementById("taurusMessage");
-var gemBtn = document.getElementById("geminiMessage");
-var canBtn = document.getElementById("cancerMessage");
-var leoBtn = document.getElementById("leoMessage");
-var virgBtn = document.getElementById("virgoMessage");
-var libBtn = document.getElementById("libraMessage");
-var scorBtn = document.getElementById("scorpioMessage");
-var sagBtn = document.getElementById("sagittariusMessage");
-var capBtn = document.getElementById("capricornMessage");
+function randomNum(){
+	return Math.floor(Math.random() * msgCount);
+};
 
+function generateAcqMessage(){
+	console.log("acq");
+	var num = randomNum();
+	var msg = acquariusMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
 
+function generatePisMessage(){
+	console.log("pis");
+	var num = randomNum();
+	var msg = piscesMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
+
+function generateAriMessage(){
+	console.log("ari");
+	var num = randomNum();
+	var msg = ariesMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
+
+function generateTauMessage(){
+	console.log("tau");
+	var num = randomNum();
+	var msg = taurusMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
+
+function generateGemMessage(){
+	console.log("gem");
+	var num = randomNum();
+	var msg = geminiMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
+
+function generateCanMessage(){
+	console.log("can");
+	var num = randomNum();
+	var msg = cancerMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
+
+function generateLeoMessage(){
+	console.log("leo");
+	var num = randomNum();
+	var msg = leoMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
+
+function generateVirgMessage(){
+	console.log("virg");
+	var num = randomNum();
+	var msg = virgoMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
+
+function generateLibMessage(){
+	console.log("lib");
+	var num = randomNum();
+	var msg = libraMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
+
+function generateScoMessage(){
+	console.log("sco");
+	var num = randomNum();
+	var msg = scorpioMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
+
+function generateSagMessage(){
+	console.log("sag");
+	var num = randomNum();
+	var msg = sagittariusMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}
+
+function generateCapMessage(){
+	console.log("cap");
+	var num = randomNum();
+	var msg = capricornMessages[num];
+	document.getElementById("message").innerHTML = msg;
+}

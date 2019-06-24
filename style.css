@@ -1,12 +1,13 @@
 body{
 	margin: 3% 5%;
-}
-p {
 	text-align:center;
+	background-color: lavendar;
 }
 
 .signs {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	padding: 10px;
 }
+
