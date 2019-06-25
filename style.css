@@ -1,8 +1,10 @@
 body{
+	background-image: url('background.jpg');
+	background-repeat: no-repeat; 
 	margin: 3% 5%;
 	text-align:center;
 	background-color: lavender;
-	color: #0053ba;
+	color: white;
 	font-family: sans-serif;
 }
 

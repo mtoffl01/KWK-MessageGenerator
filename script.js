@@ -34,7 +34,7 @@ var sagittariusMessages = ["A Sagittarius hardly holds grudges. They are quick t
 "Sagittarius are really good at reading people.",
 "Famous Sagittariuses include Taylor Swift, Nicki Minaj and Jay-Z."];
 var capricornMessages = ["Capricorns hold a serious demeanor. They do not believe in lose talk and casual meetings.",
-"Although they lead with their serious side, once befriended they displaytheir funny, lighter side.",
+"Although they lead with their serious side, once befriended Leos displaytheir funny, lighter side.",
 "Famous Capricorns include David Bowie, Bradley Cooper and Mac Miller."];
 
 function randomNum(){
